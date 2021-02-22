@@ -6,7 +6,7 @@
 
 //https://stackoverflow.com/questions/11820718/convert-utc-offset-to-timezone-or-date
 
-$offset = '-10.00';
+$offset = '-7:00';
 
 // Calculate seconds from offset
 list($hours, $minutes) = explode(':', $offset);
